@@ -2611,12 +2611,14 @@ i.icon-icons_plus, i.icon-icons_minus {
   article > aside .menu {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
   }
   article > aside .menu > .dd-item {
     order: 2;
   }
   article > aside .menu > .dd-item.parent {
     order: 1;
+    flex: 1 0 auto;
   }
   article section.page .highlight {
     display: inline-block;    
